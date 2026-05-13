@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "ariadne.html#very-cool-sticker",
+    "href": "ariadne.html#very-cool-sticker",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Very cool sticker",
+    "text": "Very cool sticker"
+  },
+  {
     "objectID": "ariadne.html#frontiers-of-microbiome-data-science",
     "href": "ariadne.html#frontiers-of-microbiome-data-science",
     "title": "Integrating relational knowledge with ariadne",
@@ -14,6 +21,34 @@
     "text": "The MinotauR in the room\nMulti-modal INtegration Operations, Tools and AUxilaries in R\n\n\n\n\npackage\ndescription\n\n\n\n\n🗃️\nMultiFactor\nS7 classes for relational data\n\n\n🧶\nariadne\nImport and wrangle relational data\n\n\n🕷️\nanansi\nAnalysis of feature-pair interactions\n\n\n🦉\npallas\nCompose and send SPARQL queries\n\n\n⛵\nargonaut\nTools for stratified analysis"
   },
   {
+    "objectID": "ariadne.html#databases-are",
+    "href": "ariadne.html#databases-are",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Databases are …",
+    "text": "Databases are …"
+  },
+  {
+    "objectID": "ariadne.html#databases-are-a-wealth-of-knowledge",
+    "href": "ariadne.html#databases-are-a-wealth-of-knowledge",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Databases are a wealth of knowledge!",
+    "text": "Databases are a wealth of knowledge!\n\n\n\nGenome\n\ngenes & genomes\northologues (KOs)\npathways\n\n\n\nProteome\n\nunique proteins\nprotein clusters\nredundant prots\n\n\n\nReactome:\n\nreactions\nenzymes (EC)\ncompounds"
+  },
+  {
+    "objectID": "ariadne.html#time-for-a-poll",
+    "href": "ariadne.html#time-for-a-poll",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Time for a poll!",
+    "text": "Time for a poll!\n\nWhat databases do you use in your research?\nHave you had any challenges using databases?"
+  },
+  {
+    "objectID": "ariadne.html#but-they-arent-always-easy-to-use",
+    "href": "ariadne.html#but-they-arent-always-easy-to-use",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "but they aren’t always easy to use",
+    "text": "but they aren’t always easy to use\n\n\nLoading…\n\nSame data, different formats\n\n\n\nLarge data volumes"
+  },
+  {
     "objectID": "ariadne.html#how-it-works",
     "href": "ariadne.html#how-it-works",
     "title": "Integrating relational knowledge with ariadne",
@@ -21,85 +56,8 @@
     "text": "How it works"
   },
   {
-    "objectID": "ariadne.html#other-nice-features",
-    "href": "ariadne.html#other-nice-features",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Other nice features",
-    "text": "Other nice features\n\nAdd user-defined resources\n\n\n# # So much relational data in the wild!\ngraph &lt;- addResource(graph, res.url, \"MyDatabase\")\n\n\nWork with Bioconductor classes\n\n\n# Add modules membership info to SummarizedExperiment\nse &lt;- addModules(se, ariadne.out, as = \"names\")\n\n\nPerform module-wise operations\n\n\n# Calculate functional phylogenetic alpha diversity\nse &lt;- applyByModule(se, \"rows\", mod.names, getAlpha, index = \"faith\")\n\n# Agglomerate assay based on module membership\nse &lt;- agglomerateByModule(se, mod.names, as = \"names\")"
-  },
-  {
-    "objectID": "ariadne.html#utility",
-    "href": "ariadne.html#utility",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Utility",
-    "text": "Utility\nUse ariadne to retrieve and combine relational information from multiple databases, and integrate it with your data.\nIn practice:\n\nFunctional annotation (ChocoPhlAn, WoL)\nModule-wise analysis (alpha, beta, DE)\nGene/Microbe-set enrichment analysis (MSigDB, BugSigDB)\nPathway enrichment analysis (KEGG, Rhea, MetaCyc)"
-  },
-  {
-    "objectID": "ariadne.html#next-steps",
-    "href": "ariadne.html#next-steps",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Next steps",
-    "text": "Next steps\n\nPrepping submission to Bioconductor (forging nice logo)\nSpreading the word (manuscript, EuroBioC poster & talk)\nAdding features (use cases, app/website, Python extension)\n\nWanna join the adventure?"
-  },
-  {
-    "objectID": "ariadne.html#resources",
-    "href": "ariadne.html#resources",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Resources",
-    "text": "Resources\n\nBugs as features\nMinotauR GitHub Org\nOpenMoji"
-  },
-  {
-    "objectID": "ariadne.html#briefly-about-me",
-    "href": "ariadne.html#briefly-about-me",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Briefly about me",
-    "text": "Briefly about me\n\nDoctoral researcher at the Turku Data Science Group\nDoing data science, machine learning and R package development\nInterested in environmental microbiome and sustainable biotechnology applications\nGitHub: @RiboRings"
-  },
-  {
-    "objectID": "ariadne.html#acknowledgements",
-    "href": "ariadne.html#acknowledgements",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Acknowledgements",
-    "text": "Acknowledgements\n\nthe Turku Data Science Group\nCo-developer: Thomaz Bastiaanssen\nTesters: Vilhelm Suksi and Eugenia Natasha"
-  },
-  {
-    "objectID": "ariadne.html#temptative-logo",
-    "href": "ariadne.html#temptative-logo",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Temptative logo",
-    "text": "Temptative logo"
-  },
-  {
-    "objectID": "ariadne.html#something",
-    "href": "ariadne.html#something",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "something",
-    "text": "something"
-  },
-  {
-    "objectID": "ariadne.html#sticker-draft",
-    "href": "ariadne.html#sticker-draft",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Sticker draft",
-    "text": "Sticker draft"
-  },
-  {
-    "objectID": "ariadne.html#very-cool-sticker",
-    "href": "ariadne.html#very-cool-sticker",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Very cool sticker",
-    "text": "Very cool sticker"
-  },
-  {
-    "objectID": "ariadne.html#kegg-database",
-    "href": "ariadne.html#kegg-database",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "KEGG database",
-    "text": "KEGG database"
-  },
-  {
-    "objectID": "ariadne.html#databases-are",
-    "href": "ariadne.html#databases-are",
+    "objectID": "ariadne.html#databases-are-1",
+    "href": "ariadne.html#databases-are-1",
     "title": "Integrating relational knowledge with ariadne",
     "section": "Databases are …",
     "text": "Databases are …"
@@ -112,18 +70,11 @@
     "text": "Databases are networks!"
   },
   {
-    "objectID": "ariadne.html#or-just-one-network",
-    "href": "ariadne.html#or-just-one-network",
+    "objectID": "ariadne.html#connecting-the-dots",
+    "href": "ariadne.html#connecting-the-dots",
     "title": "Integrating relational knowledge with ariadne",
-    "section": "Or just one network",
-    "text": "Or just one network\n“The sum of the parts is greater than the whole”"
-  },
-  {
-    "objectID": "ariadne.html#going-for-a-walk",
-    "href": "ariadne.html#going-for-a-walk",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Going for a walk",
-    "text": "Going for a walk\nacross the ariadne graph"
+    "section": "Connecting the dots",
+    "text": "Connecting the dots\n“The sum of the parts is greater than the whole”"
   },
   {
     "objectID": "ariadne.html#taking-a-walk",
@@ -133,60 +84,18 @@
     "text": "Taking a walk\nacross the ariadne graph"
   },
   {
-    "objectID": "ariadne.html#connecting-the-dots",
-    "href": "ariadne.html#connecting-the-dots",
+    "objectID": "ariadne.html#output",
+    "href": "ariadne.html#output",
     "title": "Integrating relational knowledge with ariadne",
-    "section": "Connecting the dots",
-    "text": "Connecting the dots\n“The sum of the parts is greater than the whole”"
+    "section": "Output",
+    "text": "Output\nLinks between origin and target"
   },
   {
-    "objectID": "ariadne.html#databases-are-a-wealth-of-knowledge-but",
-    "href": "ariadne.html#databases-are-a-wealth-of-knowledge-but",
+    "objectID": "ariadne.html#other-nice-features",
+    "href": "ariadne.html#other-nice-features",
     "title": "Integrating relational knowledge with ariadne",
-    "section": "Databases are a wealth of knowledge, but…",
-    "text": "Databases are a wealth of knowledge, but…"
-  },
-  {
-    "objectID": "ariadne.html#they-arent-always-easy",
-    "href": "ariadne.html#they-arent-always-easy",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "they aren’t always easy",
-    "text": "they aren’t always easy"
-  },
-  {
-    "objectID": "ariadne.html#they-arent-always-easy-to-use",
-    "href": "ariadne.html#they-arent-always-easy-to-use",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "they aren’t always easy to use",
-    "text": "they aren’t always easy to use\n\n\nLoading…\n\nSame data, different formats\n\n\n\nLarge data volumes"
-  },
-  {
-    "objectID": "ariadne.html#databases-are-a-wealth-of-knowledge",
-    "href": "ariadne.html#databases-are-a-wealth-of-knowledge",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Databases are a wealth of knowledge!",
-    "text": "Databases are a wealth of knowledge!\n\n\n\nGenome\n\ngenes & genomes\northologues (KOs)\npathways\n\n\n\nProteome\n\nunique proteins\nprotein clusters\nredundant prots\n\n\n\nReactome:\n\nreactions\nenzymes (EC)\ncompounds"
-  },
-  {
-    "objectID": "ariadne.html#but-they-arent-always-easy-to-use",
-    "href": "ariadne.html#but-they-arent-always-easy-to-use",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "but they aren’t always easy to use",
-    "text": "but they aren’t always easy to use\n\n\nLoading…\n\nSame data, different formats\n\n\n\nLarge data volumes"
-  },
-  {
-    "objectID": "ariadne.html#databases-are-1",
-    "href": "ariadne.html#databases-are-1",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Databases are …",
-    "text": "Databases are …"
-  },
-  {
-    "objectID": "ariadne.html#time-for-a-poll",
-    "href": "ariadne.html#time-for-a-poll",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Time for a poll!",
-    "text": "Time for a poll!\n\nWhat databases do you use in your research?\nHave you had any challenges using databases?"
+    "section": "Other nice features",
+    "text": "Other nice features\n\nAdd user-defined resources\n\n\n# # So much relational data in the wild!\ngraph &lt;- addResource(graph, res.url, \"MyDatabase\")\n\n\nWork with Bioconductor classes\n\n\n# Add modules membership info to SummarizedExperiment\nse &lt;- addModules(se, ariadne.out, as = \"names\")\n\n\nPerform module-wise operations\n\n\n# Calculate functional phylogenetic alpha diversity\nse &lt;- applyByModule(se, \"rows\", mod.names, getAlpha, index = \"faith\")\n\n# Agglomerate assay based on module membership\nse &lt;- agglomerateByModule(se, mod.names, as = \"names\")"
   },
   {
     "objectID": "ariadne.html#use-cases",
@@ -196,17 +105,52 @@
     "text": "Use cases\nUse ariadne to retrieve and combine relational information from multiple databases, and integrate it with your data.\nIn practice:\n\nFunctional annotation (ChocoPhlAn, WoL)\nModule-wise analysis (alpha, beta, DE)\nGene/Microbe-set enrichment analysis (MSigDB, BugSigDB)\nPathway enrichment analysis (KEGG, Rhea, MetaCyc)"
   },
   {
+    "objectID": "ariadne.html#next-steps",
+    "href": "ariadne.html#next-steps",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Next steps",
+    "text": "Next steps\n\nPrepping submission to Bioconductor (forging nice logo)\nSpreading the word (manuscript, EuroBioC poster & talk)\nAdding features (use cases, app/website, Python extension)\n\nWanna join the adventure?"
+  },
+  {
+    "objectID": "ariadne.html#acknowledgements",
+    "href": "ariadne.html#acknowledgements",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\n\nthe Turku Data Science Group\nCo-developer: Thomaz Bastiaanssen\nTesters: Vilhelm Suksi and Eugenia Natasha"
+  },
+  {
+    "objectID": "ariadne.html#resources",
+    "href": "ariadne.html#resources",
+    "title": "Integrating relational knowledge with ariadne",
+    "section": "Resources",
+    "text": "Resources\n\nBugs as features\nMinotauR GitHub Org\nOpenMoji"
+  },
+  {
     "objectID": "ariadne.html#code",
     "href": "ariadne.html#code",
     "title": "Integrating relational knowledge with ariadne",
     "section": "Code",
-    "text": "Code\n\n# Import resource graph\ngraph &lt;- ariadne()\n\n# Plot resource graph\nplotPath(graph, res.name = c(\"KEGG\", \"UniProt\", \"Rhea\"))\n\n# Plot path\nplotPath(graph, taxid ~ chebi, k = 19, focus = TRUE)\n\n# Search for alternative pathways\nsearchPath(graph, taxid ~ chebi, k = 30)\n\n# Get pathway description for reproducibility\ndrawPath(graph, taxid ~ chebi, k = 19)\n\n# Link taxa to compounds\ntax2chebi &lt;- weavePath(graph, taxid ~ chebi, k = 19, init = c(some_taxid))\n\n\n\n\n\nMinotauR"
+    "text": "Code\n\n# Import resource graph\ngraph &lt;- ariadne()\n\n# Plot resource graph\nplotPath(graph, res.name = c(\"KEGG\", \"UniProt\", \"Rhea\"))\n\n# Plot path\nplotPath(graph, taxid ~ chebi, k = 19, focus = TRUE)\n\n# Search for alternative pathways\nsearchPath(graph, taxid ~ chebi, k = 30)\n\n# Get pathway description for reproducibility\ndrawPath(graph, taxid ~ chebi, k = 19)\n\n# Link taxa to compounds\ntax2chebi &lt;- weavePath(graph, taxid ~ chebi, k = 19, init = c(some_taxid))"
   },
   {
-    "objectID": "ariadne.html#output",
-    "href": "ariadne.html#output",
-    "title": "Integrating relational knowledge with ariadne",
-    "section": "Output",
-    "text": "Output\nLinks between origin and target"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MinotauR outreach",
+    "section": "",
+    "text": "Welcome to the MinotauR outreach platform! Here you will find presentations and other learning material about the MinotauR ecosystem. For detailed information about a particular package, visit the corresponding package web pages."
+  },
+  {
+    "objectID": "index.html#overview",
+    "href": "index.html#overview",
+    "title": "MinotauR outreach",
+    "section": "",
+    "text": "Welcome to the MinotauR outreach platform! Here you will find presentations and other learning material about the MinotauR ecosystem. For detailed information about a particular package, visit the corresponding package web pages."
+  },
+  {
+    "objectID": "index.html#contents",
+    "href": "index.html#contents",
+    "title": "MinotauR outreach",
+    "section": "Contents",
+    "text": "Contents\n\nariadne\n\nNeed some help? Just open an issue and you’ll hear back from us!"
   }
 ]
