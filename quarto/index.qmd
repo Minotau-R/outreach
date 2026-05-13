@@ -1,0 +1,17 @@
+---
+title: "MinotauR outreach"
+format: html
+---
+
+## Overview
+
+Welcome to the MinotauR outreach platform! Here you will find presentations and
+other learning material about the MinotauR ecosystem. For detailed information
+about a particular package, visit the corresponding package web pages.
+
+## Contents
+
+- [ariadne](https://Minotau-R.github.io/outreach/ariadne.html){target="_blank"}
+
+Need some help? Just [open an issue](https://github.com/Minotau-R/outreach/issues/new)
+and you'll hear back from us!
